@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Whiteboard</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <div class="color-palette">
+        <button class="color-btn" data-color="white" style="background-color: white;"></button>
+        <button class="color-btn" data-color="red" style="background-color: red;"></button>
+        <button class="color-btn" data-color="blue" style="background-color: blue;"></button>
+        <button class="color-btn" data-color="green" style="background-color: green;"></button>
+        <button class="color-btn" data-color="yellow" style="background-color: yellow;"></button>
+        <button class="color-btn" data-color="purple" style="background-color: purple;"></button>
+        <button class="color-btn" data-color="black" style="background-color: black;"></button>
+        <button class="color-btn" data-color="pink" style="background-color: pink;"></button>
+        <button class="color-btn" data-color="brown" style="background-color: brown;"></button>
+        <button class="color-btn" data-color="cyan" style="background-color: cyan;"></button>
+        <button class="color-btn" data-color="orange" style="background-color: orange;"></button>
+        <button class="color-btn" data-color="light-green" style="background-color: rgb(79, 252, 79);"></button>
+        
+        
+        <button id="clear-btn">Clear Everything</button>
+
+
+        <button id="send-btn">Send to Backend</button>
+
+        
+        <button id="print-result-btn">Print Result</button>
+    
+        
+        <div id="response-container"></div>
+
+
+    </div>
+
+    <canvas id="whiteboard"></canvas>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
